@@ -1,0 +1,42 @@
+
+body{
+    background: linear-gradient( rgb(82, 181, 218), rgb(231, 92, 115));
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1,h2{
+    text-align: center;
+}
+.container{
+    min-height: 500px;
+    min-width: 350px;
+    border: 1px solid snow;
+    display: flex;
+    flex-direction: column;
+    background-color:silver;
+    justify-content:space-evenly;
+    align-items: center;
+    border-radius: 10px;
+} 
+.main{
+    width: 20rem;
+    background-color: lightgray;
+    border-radius: 10px;
+    border: 1px solid snow;
+}
+.buttons{
+    padding:10px;
+}
+
+button{
+    font-size: 1.5rem;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 1rem 2rem ;
+    border: 1px solid snow;
+}
